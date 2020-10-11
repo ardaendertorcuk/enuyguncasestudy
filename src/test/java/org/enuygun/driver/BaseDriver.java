@@ -21,7 +21,7 @@ public class BaseDriver {
         chromeOptions.addArguments("start-maximized");
         chromeOptions.addArguments("Zoom-0.5");
         chromeOptions.merge(capabilities);
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\testinium\\Desktop\\TheProjects\\enuygunCaseStudy\\enuygunCaseStudy\\drivers\\chrome\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chrome/chromedriver.exe");
         return new ChromeDriver(chromeOptions);
     }
 }
