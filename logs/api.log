@@ -1,0 +1,867 @@
+10-10-2020 15:02:47.173 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 15:02:47.174 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 15:02:47.175 [Gauge] [DEBUG] Found 1 files
+10-10-2020 15:02:47.182 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 15:02:47.182 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 15:02:47.182 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 15:02:47.182 [Gauge] [INFO] Gauge daemon initialized and listening on port: 54930
+10-10-2020 17:18:06.055 [Gauge] [INFO] Closing connection [127.0.0.1:54931] cause: read tcp 127.0.0.1:54930->127.0.0.1:54931: wsarecv: An existing connection was forcibly closed by the remote host.
+10-10-2020 17:18:06.167 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 10504 has terminated.
+10-10-2020 18:51:24.001 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 18:51:24.001 [Gauge] [DEBUG] Found 1 files
+10-10-2020 18:51:24.006 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 18:51:24.006 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 18:51:24.006 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:51:24.006 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 18:51:24.006 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:51:24.006 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52216
+10-10-2020 18:52:45.460 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:52:45.469 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:52:49.781 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:52:49.792 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:55:31.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de" > 
+10-10-2020 18:55:31.152 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de" parameterizedStepValue:"de" > > 
+10-10-2020 18:56:31.275 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <" > 
+10-10-2020 18:56:31.275 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 18:56:31.296 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <" > 
+10-10-2020 18:56:31.296 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 18:56:31.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <" > 
+10-10-2020 18:56:31.302 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 18:56:32.428 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <>" > 
+10-10-2020 18:56:32.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de {}" parameterizedStepValue:"de <>" parameters:"" > > 
+10-10-2020 18:56:33.905 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <key>" > 
+10-10-2020 18:56:33.908 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de {}" parameterizedStepValue:"de <key>" parameters:"key" > > 
+10-10-2020 18:56:35.945 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <key> sa" > 
+10-10-2020 18:56:35.947 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de {} sa" parameterizedStepValue:"de <key> sa" parameters:"key" > > 
+10-10-2020 18:56:38.289 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <key> sayfas\304\261na gir" > 
+10-10-2020 18:56:38.289 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de {} sayfas\304\261na gir" parameterizedStepValue:"de <key> sayfas\304\261na gir" parameters:"key" > > 
+10-10-2020 18:56:39.860 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"de <key> sayfas\304\261na git" > 
+10-10-2020 18:56:39.860 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"de {} sayfas\304\261na git" parameterizedStepValue:"de <key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 18:56:42.525 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 18:56:42.534 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 18:56:52.795 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 18:56:52.799 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<> 
+10-10-2020 18:56:52.800 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 18:56:52.800 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 18:56:56.002 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 18:56:56.002 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<> 
+10-10-2020 18:56:56.006 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 18:56:56.006 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 18:56:56.825 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" sayfas\304\261na git" > 
+10-10-2020 18:56:56.827 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<> sayfas\304\261na git" parameters:"" > > 
+10-10-2020 18:56:57.355 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" sayfas\304\261na git" > 
+10-10-2020 18:56:57.355 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<2> sayfas\304\261na git" parameters:"2" > > 
+10-10-2020 18:57:01.394 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"deneme\" sayfas\304\261na git" > 
+10-10-2020 18:57:01.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<deneme> sayfas\304\261na git" parameters:"deneme" > > 
+10-10-2020 18:57:05.795 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"denem\" sayfas\304\261na git" > 
+10-10-2020 18:57:05.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<denem> sayfas\304\261na git" parameters:"denem" > > 
+10-10-2020 18:57:08.184 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www\" sayfas\304\261na git" > 
+10-10-2020 18:57:08.188 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www> sayfas\304\261na git" parameters:"www" > > 
+10-10-2020 18:57:08.188 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www\" sayfas\304\261na git" > 
+10-10-2020 18:57:08.188 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www> sayfas\304\261na git" parameters:"www" > > 
+10-10-2020 18:57:08.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.\" sayfas\304\261na git" > 
+10-10-2020 18:57:08.608 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.> sayfas\304\261na git" parameters:"www." > > 
+10-10-2020 18:57:08.608 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.\" sayfas\304\261na git" > 
+10-10-2020 18:57:08.608 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.> sayfas\304\261na git" parameters:"www." > > 
+10-10-2020 18:57:09.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.r\" sayfas\304\261na git" > 
+10-10-2020 18:57:09.016 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.r> sayfas\304\261na git" parameters:"www.r" > > 
+10-10-2020 18:57:13.724 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.enuygun.com\" sayfas\304\261na git" > 
+10-10-2020 18:57:13.724 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.enuygun.com> sayfas\304\261na git" parameters:"www.enuygun.com" > > 
+10-10-2020 18:57:26.371 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 18:57:26.379 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 19:27:48.332 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 19:27:48.333 [Gauge] [DEBUG] Found 1 files
+10-10-2020 19:27:48.338 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 19:27:48.343 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 19:27:48.343 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 19:27:48.343 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 19:27:48.343 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50305
+10-10-2020 19:29:10.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.enuygun.com\" sayfas\304\261na git" > 
+10-10-2020 19:29:10.689 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.enuygun.com> sayfas\304\261na git" parameters:"www.enuygun.com" > > 
+10-10-2020 19:29:10.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 19:29:10.848 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 19:50:12.686 [Gauge] [INFO] Closing connection [127.0.0.1:50306] cause: read tcp 127.0.0.1:50305->127.0.0.1:50306: wsarecv: An existing connection was forcibly closed by the remote host.
+10-10-2020 19:50:12.936 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 7684 has terminated.
+10-10-2020 19:50:24.131 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 19:50:24.132 [Gauge] [DEBUG] Found 1 files
+10-10-2020 19:50:24.134 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 19:50:24.134 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 19:50:24.134 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 19:50:24.134 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 19:50:24.134 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50545
+10-10-2020 19:53:40.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 19:53:40.422 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 19:53:40.423 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.enuygun.com\" sayfas\304\261na git" > 
+10-10-2020 19:53:40.429 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.enuygun.com> sayfas\304\261na git" parameters:"www.enuygun.com" > > 
+10-10-2020 19:57:40.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.enuygu\" sayfas\304\261na git" > 
+10-10-2020 19:57:40.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.enuygu> sayfas\304\261na git" parameters:"www.enuygu" > > 
+10-10-2020 19:57:40.853 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"www.enuygu\" sayfas\304\261na git" > 
+10-10-2020 19:57:40.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<www.enuygu> sayfas\304\261na git" parameters:"www.enuygu" > > 
+10-10-2020 19:57:42.777 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" sayfas\304\261na git" > 
+10-10-2020 19:57:42.782 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<> sayfas\304\261na git" parameters:"" > > 
+10-10-2020 19:57:42.782 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" sayfas\304\261na git" > 
+10-10-2020 19:57:42.782 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<> sayfas\304\261na git" parameters:"" > > 
+10-10-2020 19:57:43.592 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+10-10-2020 19:57:43.597 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 19:57:43.597 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+10-10-2020 19:57:43.597 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 19:57:45.680 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 19:57:45.681 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 19:57:45.689 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 20:30:56.147 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 20:30:56.147 [Gauge] [DEBUG] Found 1 files
+10-10-2020 20:30:56.151 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 20:30:56.152 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 20:30:56.152 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 20:30:56.152 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 20:30:56.152 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50984
+10-10-2020 20:50:13.945 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kla" > 
+10-10-2020 20:50:13.952 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<element> \303\274zerine t\304\261kla" parameters:"element" > > 
+10-10-2020 20:51:35.055 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kl" > 
+10-10-2020 20:51:35.060 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kl" parameterizedStepValue:"<element> \303\274zerine t\304\261kl" parameters:"element" > > 
+10-10-2020 20:51:36.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261k" > 
+10-10-2020 20:51:36.400 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261k" parameterizedStepValue:"<element> \303\274zerine t\304\261k" parameters:"element" > > 
+10-10-2020 20:51:37.895 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> " > 
+10-10-2020 20:51:37.898 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{}" parameterizedStepValue:"<element>" parameters:"element" > > 
+10-10-2020 20:51:39.895 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na" > 
+10-10-2020 20:51:39.896 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na" parameterizedStepValue:"<element> alan\304\261na" parameters:"element" > > 
+10-10-2020 20:51:43.675 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na " > 
+10-10-2020 20:51:43.683 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na" parameterizedStepValue:"<element> alan\304\261na" parameters:"element" > > 
+10-10-2020 20:51:44.087 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na z" > 
+10-10-2020 20:51:44.087 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na z" parameterizedStepValue:"<element> alan\304\261na z" parameters:"element" > > 
+10-10-2020 20:51:44.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <" > 
+10-10-2020 20:51:44.760 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 20:51:44.766 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <" > 
+10-10-2020 20:51:44.766 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 20:51:46.230 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <>" > 
+10-10-2020 20:51:46.234 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {}" parameterizedStepValue:"<element> alan\304\261na <>" parameters:"element" parameters:"" > > 
+10-10-2020 20:51:50.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <i>" > 
+10-10-2020 20:51:50.151 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {}" parameterizedStepValue:"<element> alan\304\261na <i>" parameters:"element" parameters:"i" > > 
+10-10-2020 20:51:51.280 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input>" > 
+10-10-2020 20:51:51.280 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {}" parameterizedStepValue:"<element> alan\304\261na <input>" parameters:"element" parameters:"input" > > 
+10-10-2020 20:51:52.375 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de" > 
+10-10-2020 20:51:52.380 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de" parameterizedStepValue:"<element> alan\304\261na <input> de" parameters:"element" parameters:"input" > > 
+10-10-2020 20:51:53.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erine" > 
+10-10-2020 20:51:53.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erine" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erine" parameters:"element" parameters:"input" > > 
+10-10-2020 20:51:54.915 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini " > 
+10-10-2020 20:51:54.915 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini" parameters:"element" parameters:"input" > > 
+10-10-2020 20:51:58.175 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 20:51:58.178 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini gir" parameters:"element" parameters:"input" > > 
+10-10-2020 20:57:02.999 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:57:03.011 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:57:03.020 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:57:29.048 [Gauge] [INFO] Spec file removed: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\example.spec
+10-10-2020 20:57:32.702 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:57:32.710 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:57:34.215 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 20:57:34.220 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 20:57:34.224 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 20:57:34.224 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 20:57:40.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 20:57:40.148 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} de\304\237erini gir" parameterizedStepValue:"<element alan\304\261na <input> de\304\237erini gir" parameters:"element alan\304\261na <input" > > 
+10-10-2020 20:57:41.544 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 20:57:41.545 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 20:57:41.545 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 20:57:41.545 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 20:57:42.524 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"< alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 20:57:42.529 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} de\304\237erini gir" parameterizedStepValue:"< alan\304\261na <input> de\304\237erini gir" parameters:" alan\304\261na <input" > > 
+10-10-2020 20:57:45.015 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 20:57:45.018 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<> alan\304\261na <input> de\304\237erini gir" parameters:"" parameters:"input" > > 
+10-10-2020 20:58:05.975 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 20:58:05.979 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <input> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"input" > > 
+10-10-2020 20:58:08.885 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"\" de\304\237erini gir" > 
+10-10-2020 20:58:08.888 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"" > > 
+10-10-2020 20:58:14.124 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"\304\260s\" de\304\237erini gir" > 
+10-10-2020 20:58:14.127 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <\304\260s> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"\304\260s" > > 
+10-10-2020 20:58:14.685 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"\304\260sta\" de\304\237erini gir" > 
+10-10-2020 20:58:14.688 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <\304\260sta> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"\304\260sta" > > 
+10-10-2020 20:58:15.765 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"\304\260st\" de\304\237erini gir" > 
+10-10-2020 20:58:15.768 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <\304\260st> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"\304\260st" > > 
+10-10-2020 20:58:19.375 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"ista\" de\304\237erini gir" > 
+10-10-2020 20:58:19.378 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <ista> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"ista" > > 
+10-10-2020 20:58:20.355 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanb\" de\304\237erini gir" > 
+10-10-2020 20:58:20.358 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanb> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanb" > > 
+10-10-2020 20:58:20.995 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbul\" de\304\237erini gir" > 
+10-10-2020 20:58:20.995 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbul> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbul" > > 
+10-10-2020 20:58:26.316 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:58:26.324 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:58:30.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbu\" de\304\237erini gir" > 
+10-10-2020 20:58:30.601 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbu> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbu" > > 
+10-10-2020 20:58:34.965 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Or\" de\304\237erini gir" > 
+10-10-2020 20:58:34.968 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Or> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Or" > > 
+10-10-2020 20:58:35.315 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Ord\" de\304\237erini gir" > 
+10-10-2020 20:58:35.318 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Ord> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Ord" > > 
+10-10-2020 20:58:36.295 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Ordu\" de\304\237erini gir" > 
+10-10-2020 20:58:36.298 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Ordu> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Ordu" > > 
+10-10-2020 20:58:36.815 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Ordug\" de\304\237erini gir" > 
+10-10-2020 20:58:36.818 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Ordug> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Ordug" > > 
+10-10-2020 20:58:38.327 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Ordu-\" de\304\237erini gir" > 
+10-10-2020 20:58:38.327 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Ordu-> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Ordu-" > > 
+10-10-2020 20:58:41.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Gires\" de\304\237erini gir" > 
+10-10-2020 20:58:41.635 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Gires> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Gires" > > 
+10-10-2020 20:58:42.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Giresun\" de\304\237erini gir" > 
+10-10-2020 20:58:42.668 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Giresun> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Giresun" > > 
+10-10-2020 20:58:42.985 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Giresu\" de\304\237erini gir" > 
+10-10-2020 20:58:42.988 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Giresu> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Giresu" > > 
+10-10-2020 20:58:43.595 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"G\" de\304\237erini gir" > 
+10-10-2020 20:58:43.598 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <G> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"G" > > 
+10-10-2020 20:58:54.628 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 20:58:54.628 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 20:58:57.189 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 20:58:57.192 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 20:58:57.992 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereyeInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 20:58:57.997 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 20:59:01.732 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 20:59:01.738 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:11:36.196 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<elemen> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:36.196 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<elemen> \303\274zerine t\304\261kla" parameters:"elemen" > > 
+10-10-2020 21:11:37.121 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:37.124 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<> \303\274zerine t\304\261kla" parameters:"" > > 
+10-10-2020 21:11:37.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<ke> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:37.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<ke> \303\274zerine t\304\261kla" parameters:"ke" > > 
+10-10-2020 21:11:38.265 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:38.270 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<key> \303\274zerine t\304\261kla" parameters:"key" > > 
+10-10-2020 21:11:43.841 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<sani> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:43.841 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<sani> \303\274zerine t\304\261kla" parameters:"sani" > > 
+10-10-2020 21:11:44.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:44.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<saniye> \303\274zerine t\304\261kla" parameters:"saniye" > > 
+10-10-2020 21:11:47.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye be \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:47.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye be \303\274zerine t\304\261kla" parameterizedStepValue:"<saniye> saniye be \303\274zerine t\304\261kla" parameters:"saniye" > > 
+10-10-2020 21:11:49.040 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle \303\274zerine t\304\261kla" > 
+10-10-2020 21:11:49.051 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle \303\274zerine t\304\261kla" parameterizedStepValue:"<saniye> saniye bekle \303\274zerine t\304\261kla" parameters:"saniye" > > 
+10-10-2020 21:11:50.336 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle \303\274zerine t\304\261kl" > 
+10-10-2020 21:11:50.336 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle \303\274zerine t\304\261kl" parameterizedStepValue:"<saniye> saniye bekle \303\274zerine t\304\261kl" parameters:"saniye" > > 
+10-10-2020 21:11:51.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle" > 
+10-10-2020 21:11:51.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<saniye> saniye bekle" parameters:"saniye" > > 
+10-10-2020 21:12:22.916 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:22.918 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:24.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.545 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.545 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.547 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.548 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.550 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.550 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.551 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.551 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.590 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.591 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.591 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.601 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.604 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.626 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.626 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.626 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.626 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.626 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.641 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.641 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.643 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 21:12:24.643 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 21:12:24.840 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 21:12:24.850 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 21:12:24.850 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 21:12:24.850 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 21:12:28.692 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" saniye bekle" > 
+10-10-2020 21:12:28.692 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<> saniye bekle" parameters:"" > > 
+10-10-2020 21:12:29.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
+10-10-2020 21:12:29.693 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 21:12:35.182 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:35.190 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:36.630 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:36.634 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:39.205 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 21:12:39.205 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 21:12:39.206 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 21:12:39.206 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 21:12:43.431 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\303\274zerine t\304\261kla" > 
+10-10-2020 21:12:43.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\303\274zerine t\304\261kla" parameterizedStepValue:"\303\274zerine t\304\261kla" > > 
+10-10-2020 21:12:43.946 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" \303\274zerine t\304\261kla" > 
+10-10-2020 21:12:43.949 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<> \303\274zerine t\304\261kla" parameters:"" > > 
+10-10-2020 21:12:49.490 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:12:49.498 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:29:07.260 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 21:29:07.261 [Gauge] [DEBUG] Found 1 files
+10-10-2020 21:29:07.269 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 21:29:07.270 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 21:29:07.270 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:29:07.270 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 21:29:07.270 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53159
+10-10-2020 21:45:50.529 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 21:45:50.529 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 21:45:50.551 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 21:45:50.551 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini gir" parameters:"element" parameters:"input" > > 
+10-10-2020 21:45:50.561 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kla" > 
+10-10-2020 21:45:50.561 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<element> \303\274zerine t\304\261kla" parameters:"element" > > 
+10-10-2020 21:45:50.568 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle" > 
+10-10-2020 21:45:50.568 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<saniye> saniye bekle" parameters:"saniye" > > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereyeInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbul\" de\304\237erini gir" > 
+10-10-2020 21:45:50.617 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbul> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbul" > > 
+10-10-2020 21:45:50.618 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+10-10-2020 21:45:50.618 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 21:51:22.702 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 21:51:22.703 [Gauge] [DEBUG] Found 1 files
+10-10-2020 21:51:22.706 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 21:51:22.707 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 21:51:22.707 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 21:51:22.707 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 21:51:22.707 [Gauge] [INFO] Gauge daemon initialized and listening on port: 54689
+10-10-2020 21:54:48.165 [Gauge] [INFO] Closing connection [127.0.0.1:54690] cause: read tcp 127.0.0.1:54689->127.0.0.1:54690: wsarecv: An existing connection was forcibly closed by the remote host.
+10-10-2020 21:54:48.348 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 4116 has terminated.
+10-10-2020 22:41:12.205 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 22:41:12.205 [Gauge] [DEBUG] Found 1 files
+10-10-2020 22:41:12.210 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 22:41:12.210 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:41:12.211 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 22:41:12.211 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:41:12.211 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 22:41:12.211 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55794
+10-10-2020 22:56:12.509 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+10-10-2020 22:56:12.517 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 22:56:12.517 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
+10-10-2020 22:56:12.518 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 22:56:12.535 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini gir" parameters:"element" parameters:"input" > > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kla" > 
+10-10-2020 22:56:12.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<element> \303\274zerine t\304\261kla" parameters:"element" > > 
+10-10-2020 22:56:12.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle" > 
+10-10-2020 22:56:12.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<saniye> saniye bekle" parameters:"saniye" > > 
+10-10-2020 22:56:12.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbul\" de\304\237erini gir" > 
+10-10-2020 22:56:12.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbul> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbul" > > 
+10-10-2020 22:56:12.542 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereyeInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 22:56:12.542 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 22:56:14.464 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:56:14.466 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:56:16.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 22:56:16.710 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 22:56:16.777 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:56:16.780 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 22:56:16.782 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:56:16.782 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 22:56:17.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"tk" > 
+10-10-2020 22:56:17.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"tk" parameterizedStepValue:"tk" > > 
+10-10-2020 22:56:18.164 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:56:18.164 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 22:56:18.167 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:56:18.167 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 22:56:19.764 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:56:19.766 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:56:20.075 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"t\304\261ka" > 
+10-10-2020 22:56:20.084 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"t\304\261ka" parameterizedStepValue:"t\304\261ka" > > 
+10-10-2020 22:56:20.869 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"t\304\261k" > 
+10-10-2020 22:56:20.872 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"t\304\261k" parameterizedStepValue:"t\304\261k" > > 
+10-10-2020 22:56:21.030 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:56:21.032 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > allSteps:<stepValue:"t\304\261ka" parameterizedStepValue:"t\304\261ka" > > 
+10-10-2020 22:56:21.032 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:56:21.032 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 22:56:22.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 22:56:22.408 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 22:56:23.470 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" \303\274zerine t\304\261kla" > 
+10-10-2020 22:56:23.470 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<> \303\274zerine t\304\261kla" parameters:"" > > 
+10-10-2020 22:56:24.382 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"TekY\303\266nCheckbox\" \303\274zerine t\304\261kla" > 
+10-10-2020 22:56:24.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+10-10-2020 22:56:30.644 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:56:30.645 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:58:17.998 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 22:58:17.998 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 22:58:19.886 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:58:19.886 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 22:58:19.889 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:58:19.889 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 22:58:25.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 22:58:25.245 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 22:58:25.820 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:58:25.830 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 22:58:25.830 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:58:25.830 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 22:58:27.410 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 22:58:27.410 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} de\304\237erini gir" parameterizedStepValue:"<element alan\304\261na <input> de\304\237erini gir" parameters:"element alan\304\261na <input" > > 
+10-10-2020 22:58:28.560 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 22:58:28.564 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"alan\304\261na <input> de\304\237erini gir" parameters:"input" > > 
+10-10-2020 22:58:28.943 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 22:58:28.947 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<> alan\304\261na <input> de\304\237erini gir" parameters:"" parameters:"input" > > 
+10-10-2020 22:58:30.620 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 22:58:30.623 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <input> de\304\237erini gir" parameters:"DepartureDate" parameters:"input" > > 
+10-10-2020 22:58:32.170 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na" > 
+10-10-2020 22:58:32.170 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na" parameterizedStepValue:"<DepartureDate> alan\304\261na" parameters:"DepartureDate" > > 
+10-10-2020 22:58:33.343 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"\" de\304\237erini gir" > 
+10-10-2020 22:58:33.346 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <> de\304\237erini gir" parameters:"DepartureDate" parameters:"" > > 
+10-10-2020 22:58:35.924 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:58:35.936 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:58:44.824 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30\" de\304\237erini gir" > 
+10-10-2020 22:58:44.827 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30> de\304\237erini gir" parameters:"DepartureDate" parameters:"30" > > 
+10-10-2020 22:58:48.125 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 EK\" de\304\237erini gir" > 
+10-10-2020 22:58:48.128 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 EK> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 EK" > > 
+10-10-2020 22:58:48.725 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 EKi\" de\304\237erini gir" > 
+10-10-2020 22:58:48.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 EKi> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 EKi" > > 
+10-10-2020 22:58:49.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 E\" de\304\237erini gir" > 
+10-10-2020 22:58:49.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 E> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 E" > > 
+10-10-2020 22:58:50.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 Ek\" de\304\237erini gir" > 
+10-10-2020 22:58:50.160 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 Ek> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 Ek" > > 
+10-10-2020 22:58:50.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 Eki\" de\304\237erini gir" > 
+10-10-2020 22:58:50.648 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 Eki> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 Eki" > > 
+10-10-2020 22:58:51.422 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 Eki \" de\304\237erini gir" > 
+10-10-2020 22:58:51.423 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 Eki > de\304\237erini gir" parameters:"DepartureDate" parameters:"30 Eki " > > 
+10-10-2020 22:58:52.160 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDate\" alan\304\261na \"30 Eki 2020\" de\304\237erini gir" > 
+10-10-2020 22:58:52.163 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDate> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"DepartureDate" parameters:"30 Eki 2020" > > 
+10-10-2020 22:58:53.344 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:58:53.346 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:59:53.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"DepartureDat\" alan\304\261na \"30 Eki 2020\" de\304\237erini gir" > 
+10-10-2020 22:59:53.794 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<DepartureDat> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"DepartureDat" parameters:"30 Eki 2020" > > 
+10-10-2020 22:59:55.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" alan\304\261na \"30 Eki 2020\" de\304\237erini gir" > 
+10-10-2020 22:59:55.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"" parameters:"30 Eki 2020" > > 
+10-10-2020 22:59:55.601 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261na \"30 Eki 2020\" de\304\237erini gir" > 
+10-10-2020 22:59:55.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > > 
+10-10-2020 22:59:57.075 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:59:57.078 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 22:59:58.346 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10-10-2020 22:59:58.346 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+10-10-2020 22:59:58.352 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10-10-2020 22:59:58.352 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10-10-2020 23:00:01.432 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" saniye bekle" > 
+10-10-2020 23:00:01.435 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<> saniye bekle" parameters:"" > > 
+10-10-2020 23:00:03.257 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"3\" saniye bekle" > 
+10-10-2020 23:00:03.259 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > > 
+10-10-2020 23:00:07.720 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 23:00:07.728 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 23:01:21.725 [Gauge] [INFO] Closing connection [127.0.0.1:55795] cause: read tcp 127.0.0.1:55794->127.0.0.1:55795: wsarecv: An existing connection was forcibly closed by the remote host.
+10-10-2020 23:01:21.834 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 2588 has terminated.
+10-10-2020 23:27:37.635 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 23:27:37.635 [Gauge] [DEBUG] Found 1 files
+10-10-2020 23:27:37.639 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 23:27:37.639 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 23:27:37.639 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 23:27:37.639 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 23:27:37.639 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57303
+10-10-2020 23:28:47.073 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+10-10-2020 23:28:47.073 [Gauge] [DEBUG] Found 1 files
+10-10-2020 23:28:47.078 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+10-10-2020 23:28:47.079 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-10-2020 23:28:47.079 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+10-10-2020 23:28:47.079 [Gauge] [INFO] Initializing steps cache with 1 steps
+10-10-2020 23:28:47.079 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57396
+10-10-2020 23:34:57.173 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+10-10-2020 23:34:57.184 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+10-10-2020 23:34:57.201 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini gir" > 
+10-10-2020 23:34:57.207 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini gir" parameters:"element" parameters:"input" > > 
+10-10-2020 23:34:57.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kla" > 
+10-10-2020 23:34:57.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<element> \303\274zerine t\304\261kla" parameters:"element" > > 
+10-10-2020 23:34:57.217 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle" > 
+10-10-2020 23:34:57.217 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<saniye> saniye bekle" parameters:"saniye" > > 
+10-10-2020 23:34:57.244 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereyeInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+10-10-2020 23:34:57.247 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+10-10-2020 23:34:57.247 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"3\" saniye bekle" > 
+10-10-2020 23:34:57.247 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"TekY\303\266nCheckbox\" \303\274zerine t\304\261kla" > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbul\" de\304\237erini gir" > 
+10-10-2020 23:34:57.248 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbul> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbul" > > 
+10-10-2020 23:34:57.249 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261na \"30 Eki 2020\" de\304\237erini gir" > 
+10-10-2020 23:34:57.249 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > > 
+10-10-2020 23:34:57.249 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+10-10-2020 23:34:57.249 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+10-10-2020 23:38:37.311 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261nda <date> tarihini se\303\247" > 
+10-10-2020 23:38:37.316 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<element> alan\304\261nda <date> tarihini se\303\247" parameters:"element" parameters:"date" > > 
+10-10-2020 23:40:16.604 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 23:40:16.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 23:40:16.618 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10-10-2020 23:40:16.618 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10-10-2020 23:40:19.940 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<" > 
+10-10-2020 23:40:19.940 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 23:40:19.948 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<" > 
+10-10-2020 23:40:19.948 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+10-10-2020 23:40:20.625 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<>" > 
+10-10-2020 23:40:20.625 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{}" parameterizedStepValue:"<>" parameters:"" > > 
+10-10-2020 23:40:21.475 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<e>" > 
+10-10-2020 23:40:21.475 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{}" parameterizedStepValue:"<e>" parameters:"e" > > 
+10-10-2020 23:40:23.058 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<elementi>" > 
+10-10-2020 23:40:23.058 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{}" parameterizedStepValue:"<elementi>" parameters:"elementi" > > 
+10-10-2020 23:40:27.043 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g" > 
+10-10-2020 23:40:27.072 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g" parameterizedStepValue:"<element> elementinin g" parameters:"element" > > 
+10-10-2020 23:40:29.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274l" > 
+10-10-2020 23:40:29.661 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274l" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274l" parameters:"element" > > 
+10-10-2020 23:40:30.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274r" > 
+10-10-2020 23:40:30.792 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274r" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274r" parameters:"element" > > 
+10-10-2020 23:40:34.457 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" > 
+10-10-2020 23:40:34.461 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" parameters:"element" > > 
+11-10-2020 00:04:59.042 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:04:59.044 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:05:03.579 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:03.581 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+11-10-2020 00:05:03.584 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:03.584 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:08.792 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:08.803 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > > 
+11-10-2020 00:05:08.803 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:08.803 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:11.389 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element alan\304\261nda <date> tarihini se\303\247" > 
+11-10-2020 00:05:11.392 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} tarihini se\303\247" parameterizedStepValue:"<element alan\304\261nda <date> tarihini se\303\247" parameters:"element alan\304\261nda <date" > > 
+11-10-2020 00:05:12.651 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" alan\304\261nda <date> tarihini se\303\247" > 
+11-10-2020 00:05:12.651 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<> alan\304\261nda <date> tarihini se\303\247" parameters:"" parameters:"date" > > 
+11-10-2020 00:05:20.114 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda <date> tarihini se\303\247" > 
+11-10-2020 00:05:20.114 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <date> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"date" > > 
+11-10-2020 00:05:42.442 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda <date> tarihini se\303\247 #" > 
+11-10-2020 00:05:42.449 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247 #" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <date> tarihini se\303\247 #" parameters:"Gidi\305\237DatePickInput" parameters:"date" > > 
+11-10-2020 00:05:42.747 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:42.763 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+11-10-2020 00:05:42.763 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:42.763 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:42.764 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:42.764 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+11-10-2020 00:05:42.764 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:42.764 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:43.078 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda <date> tarihini se\303\247 #s" > 
+11-10-2020 00:05:43.080 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247 #s" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <date> tarihini se\303\247 #s" parameters:"Gidi\305\237DatePickInput" parameters:"date" > > 
+11-10-2020 00:05:44.569 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda <date> tarihini se\303\247 //" > 
+11-10-2020 00:05:44.577 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247 //" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <date> tarihini se\303\247 //" parameters:"Gidi\305\237DatePickInput" parameters:"date" > > 
+11-10-2020 00:05:45.078 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:45.093 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > > 
+11-10-2020 00:05:45.093 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:45.093 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:45.094 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:05:45.096 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261na <30 Eki 2020> de\304\237erini gir" parameters:"Gidi\305\237DatePickInput" parameters:"30 Eki 2020" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > > 
+11-10-2020 00:05:45.096 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:05:45.096 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:05:45.409 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda <date> tarihini se\303\247 //r" > 
+11-10-2020 00:05:45.412 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247 //r" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <date> tarihini se\303\247 //r" parameters:"Gidi\305\237DatePickInput" parameters:"date" > > 
+11-10-2020 00:06:06.656 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:06:06.658 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:06:42.015 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda" > 
+11-10-2020 00:06:42.021 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda" parameters:"Gidi\305\237DatePickInput" > > 
+11-10-2020 00:06:43.202 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda \"\" tarihini se\303\247" > 
+11-10-2020 00:06:43.205 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"" > > 
+11-10-2020 00:06:45.510 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:06:45.512 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:07:09.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda \"Cumartesi, 21 Kas\304\261m 2020\" tarihini se\303\247" > 
+11-10-2020 00:07:09.583 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cumartesi, 21 Kas\304\261m 2020> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cumartesi, 21 Kas\304\261m 2020" > > 
+11-10-2020 00:07:11.980 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:07:11.990 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:07:12.947 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:07:12.958 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<TekY\303\266nCheckbox> \303\274zerine t\304\261kla" parameters:"TekY\303\266nCheckbox" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cumartesi, 21 Kas\304\261m 2020> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cumartesi, 21 Kas\304\261m 2020" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<3> saniye bekle" parameters:"3" > > 
+11-10-2020 00:07:12.958 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:07:12.958 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:07:18.578 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" saniye bekle" > 
+11-10-2020 00:07:18.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<> saniye bekle" parameters:"" > > 
+11-10-2020 00:07:19.633 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"4\" saniye bekle" > 
+11-10-2020 00:07:19.635 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+11-10-2020 00:07:21.844 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:07:21.852 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:10:24.372 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:10:24.383 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:10:57.518 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda \"Cuma, 15 Ocak 2021\" tarihini se\303\247" > 
+11-10-2020 00:10:57.519 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > > 
+11-10-2020 00:11:00.285 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:11:00.295 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:17.061 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:17.072 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:18.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.336 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.337 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.337 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.340 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.340 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.341 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.346 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.346 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.346 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.363 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.363 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.383 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.383 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.400 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.400 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.405 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.405 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.406 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.419 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.420 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:18.420 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:18.625 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:19:18.635 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > > 
+11-10-2020 00:19:18.635 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:19:18.635 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:19:21.858 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" \303\274zerine t\304\261kla" > 
+11-10-2020 00:19:21.860 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<> \303\274zerine t\304\261kla" parameters:"" > > 
+11-10-2020 00:19:33.771 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:33.774 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:34.901 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.903 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.904 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.904 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.906 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.906 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.907 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.913 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.913 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.913 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.930 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.939 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.939 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.939 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.956 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.957 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.957 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.971 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.971 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.971 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.973 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.985 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:34.986 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:34.989 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:35.740 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:19:35.754 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > > 
+11-10-2020 00:19:35.754 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:19:35.754 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:19:38.232 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\303\274zerine t\304\261kla" > 
+11-10-2020 00:19:38.235 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\303\274zerine t\304\261kla" parameterizedStepValue:"\303\274zerine t\304\261kla" > > 
+11-10-2020 00:19:39.743 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"SonrakiAyButon\" \303\274zerine t\304\261kla" > 
+11-10-2020 00:19:39.746 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > > 
+11-10-2020 00:19:43.346 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:43.348 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:45.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.213 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.213 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.217 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.222 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.222 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.222 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.239 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.239 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.248 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.248 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.249 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.249 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.263 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.264 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.264 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.277 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.277 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.278 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.278 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.293 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:45.293 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:45.468 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:19:45.468 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > > 
+11-10-2020 00:19:45.468 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:19:45.468 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:19:51.887 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:51.897 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:19:53.006 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.009 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.009 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.012 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.020 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.020 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.037 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.047 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.047 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.047 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.064 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.064 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.066 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.066 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.080 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.080 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.081 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:53.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:19:53.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:19:57.739 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:19:57.747 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > > 
+11-10-2020 00:19:57.747 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:19:57.747 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:20:04.736 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:20:04.745 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:20:55.141 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:20:55.143 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:20:58.686 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.686 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.690 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.690 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.692 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.692 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.693 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.698 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.698 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.698 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.716 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.716 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.728 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.745 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.745 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.748 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.748 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.749 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.749 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.762 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.763 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.763 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:20:58.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:20:58.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:01.408 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:21:01.408 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+11-10-2020 00:21:01.417 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:21:01.417 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:21:03.285 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:03.285 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:06.115 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\303\274zerine t\304\261kl" > 
+11-10-2020 00:21:06.115 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\303\274zerine t\304\261kl" parameterizedStepValue:"\303\274zerine t\304\261kl" > > 
+11-10-2020 00:21:08.300 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:21:08.311 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:21:09.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.302 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.305 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.306 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.306 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.307 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.308 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.308 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.313 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.313 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.330 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.335 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.335 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.351 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.351 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.352 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.352 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.353 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.381 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.381 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:09.381 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:09.803 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:21:09.811 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+11-10-2020 00:21:09.811 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:21:09.811 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:21:10.589 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.592 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.593 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.594 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.594 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.595 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.599 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.599 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.599 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.616 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.616 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.631 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.631 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.632 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.632 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.659 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.659 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.662 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.662 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.663 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.676 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:10.677 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+11-10-2020 00:21:10.677 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+11-10-2020 00:21:11.464 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11-10-2020 00:21:11.479 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > allSteps:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<SonrakiAyButon> \303\274zerine t\304\261kla" parameters:"SonrakiAyButon" > allSteps:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Cuma, 15 Ocak 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Cuma, 15 Ocak 2021" > allSteps:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+11-10-2020 00:21:11.479 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11-10-2020 00:21:11.479 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11-10-2020 00:21:15.652 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" \303\274zerine t\304\261kla" > 
+11-10-2020 00:21:15.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<Gidi\305\237DatePickInput> \303\274zerine t\304\261kla" parameters:"Gidi\305\237DatePickInput" > > 
+11-10-2020 00:21:17.693 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:21:17.695 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:22:29.600 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:22:29.610 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:36:32.986 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:36:32.998 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:43:50.685 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 <seconds> saniye boyunca kontrol et" > 
+11-10-2020 00:43:50.696 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 {} saniye boyunca kontrol et" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 <seconds> saniye boyunca kontrol et" parameters:"element" parameters:"seconds" > > 
+11-10-2020 00:54:34.357 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda \"Pazar, 14 \305\236ubat 2021\" tarihini se\303\247" > 
+11-10-2020 00:54:34.357 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Pazar, 14 \305\236ubat 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Pazar, 14 \305\236ubat 2021" > > 
+11-10-2020 00:54:39.401 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 00:54:39.404 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 01:01:17.577 [Gauge] [INFO] Closing connection [127.0.0.1:57397] cause: read tcp 127.0.0.1:57396->127.0.0.1:57397: wsarecv: An existing connection was forcibly closed by the remote host.
+11-10-2020 01:01:17.697 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 8304 has terminated.
+11-10-2020 22:52:37.871 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+11-10-2020 22:52:37.872 [Gauge] [DEBUG] Found 1 files
+11-10-2020 22:52:37.881 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-10-2020 22:52:37.881 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 22:52:37.882 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-10-2020 22:52:37.882 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 22:52:37.882 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-10-2020 22:52:37.882 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61976
+11-10-2020 22:53:03.029 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"Gidi\305\237DatePickInput\" alan\304\261nda \"Pazar, 14 \305\236ubat 2021\" tarihini se\303\247" > 
+11-10-2020 22:53:03.043 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<Gidi\305\237DatePickInput> alan\304\261nda <Pazar, 14 \305\236ubat 2021> tarihini se\303\247" parameters:"Gidi\305\237DatePickInput" parameters:"Pazar, 14 \305\236ubat 2021" > > 
+11-10-2020 22:53:03.044 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"https://www.enuygun.com/\" sayfas\304\261na git" > 
+11-10-2020 22:53:03.045 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<https://www.enuygun.com/> sayfas\304\261na git" parameters:"https://www.enuygun.com/" > > 
+11-10-2020 22:53:03.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+11-10-2020 22:53:03.071 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+11-10-2020 22:53:03.071 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> sayfas\304\261na git" > 
+11-10-2020 22:53:03.071 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} sayfas\304\261na git" parameterizedStepValue:"<key> sayfas\304\261na git" parameters:"key" > > 
+11-10-2020 22:53:03.071 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261na <input> de\304\237erini gir" > 
+11-10-2020 22:53:03.071 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<element> alan\304\261na <input> de\304\237erini gir" parameters:"element" parameters:"input" > > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> \303\274zerine t\304\261kla" > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} \303\274zerine t\304\261kla" parameterizedStepValue:"<element> \303\274zerine t\304\261kla" parameters:"element" > > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<saniye> saniye bekle" > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<saniye> saniye bekle" parameters:"saniye" > > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" > 
+11-10-2020 22:53:03.073 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 kontrol et" parameters:"element" > > 
+11-10-2020 22:53:03.074 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 <seconds> saniye boyunca kontrol et" > 
+11-10-2020 22:53:03.075 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 {} saniye boyunca kontrol et" parameterizedStepValue:"<element> elementinin g\303\266r\303\274n\303\274rl\303\274\304\237\303\274n\303\274 <seconds> saniye boyunca kontrol et" parameters:"element" parameters:"seconds" > > 
+11-10-2020 22:53:03.076 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NeredenInputAlan\304\261\" alan\304\261na \"istanbul\" de\304\237erini gir" > 
+11-10-2020 22:53:03.076 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NeredenInputAlan\304\261> alan\304\261na <istanbul> de\304\237erini gir" parameters:"NeredenInputAlan\304\261" parameters:"istanbul" > > 
+11-10-2020 22:53:03.076 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<element> alan\304\261nda <date> tarihini se\303\247" > 
+11-10-2020 22:53:03.076 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261nda {} tarihini se\303\247" parameterizedStepValue:"<element> alan\304\261nda <date> tarihini se\303\247" parameters:"element" parameters:"date" > > 
+11-10-2020 22:53:03.077 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
+11-10-2020 22:53:03.079 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+11-10-2020 22:53:03.080 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"NereyeInputAlan\304\261\" alan\304\261na \"Ankara\" de\304\237erini gir" > 
+11-10-2020 22:53:03.082 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} de\304\237erini gir" parameterizedStepValue:"<NereyeInputAlan\304\261> alan\304\261na <Ankara> de\304\237erini gir" parameters:"NereyeInputAlan\304\261" parameters:"Ankara" > > 
+11-10-2020 23:00:32.964 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+11-10-2020 23:00:32.965 [Gauge] [DEBUG] Found 1 files
+11-10-2020 23:00:32.972 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-10-2020 23:00:32.973 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-10-2020 23:00:32.973 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 23:00:32.973 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-10-2020 23:00:32.973 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62461
+11-10-2020 23:01:16.539 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs
+11-10-2020 23:01:16.539 [Gauge] [DEBUG] Found 1 files
+11-10-2020 23:01:16.544 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-10-2020 23:01:16.545 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-10-2020 23:01:16.545 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\TheProjects\enuygunCaseStudy\enuygunCaseStudy\specs\Reservation.spec
+11-10-2020 23:01:16.545 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-10-2020 23:01:16.545 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62531

@@ -1,0 +1,47 @@
+[
+  {
+    "key": "NeredenInputAlanı",
+    "value": "OriginInput",
+    "type": "id"
+  },
+  {
+    "key": "NereyeInputAlanı",
+    "value": "DestinationInput",
+    "type": "id"
+  },
+  {
+    "key": "TekYönCheckbox",
+    "value": "oneWayCheckbox",
+    "type": "id"
+  },
+  {
+    "key": "GidişDatePickInput",
+    "value": "DepartureDate",
+    "type": "name"
+  },
+  {
+    "key": "BiletBulButon",
+    "value": "//button[@type=\"button\" and text()=\"Ucuz bilet bul\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "DatePickDay",
+    "value": "//td[@aria-label=\"%s\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "SonrakiAyButon",
+    "value": "//div[@role=\"button\" and @aria-label=\"Move forward to switch to the next month.\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "UçuşListesi",
+    "value": "//*[@class=\"flight-summary-select\"]//span[text()='Seç']/parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "EmailInput",
+    "value": "contact_email",
+    "type": "id"
+  }
+]
